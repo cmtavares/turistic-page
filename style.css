@@ -1,0 +1,191 @@
+:root {
+    font-family: "Open Sans", serif;
+    line-height: normal;
+    background-color: #F5F4F0;
+    --text-secondary: #333;
+}
+
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 96px 48px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    height: 38px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #E1624F;
+}
+
+p {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+#img-principal {
+    border-radius: 28px;
+    width: 100%;
+    gap: 40px;
+}
+
+#content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#content-list img {
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+    margin-top: 44px;
+    border-radius: 28px;
+    align-items: center;
+}
+
+#divider {
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+    margin-bottom: 64px;
+}
+
+#description {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--text-secondary);
+    margin-top: 24px;
+    gap: 40px;
+}
+
+#haedong {
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+
+.haedong-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.headong-topics {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#beomeo-sa {
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+
+.beomeo-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.beomeo-topics {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#youngdusan {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.youngdusan-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.youngdusan-topics {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.topic {
+    font-weight: bold;
+    color: #0C51A7;
+    list-style-position: inside;
+}
+
+.topic::marker {
+    color: rgb(0, 0, 0);
+}
+
+.topic:nth-child(1) {
+    color: #591B98;
+}
+
+.topic:nth-child(2) {
+    color: #E5245E;
+}
+
+.topic:nth-child(3) {
+    color: #E95E10;
+}
+
+#divider-2 {
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+#description-2 {
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+}
+
+footer {
+    color: #333;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
+}
