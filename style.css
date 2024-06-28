@@ -125,22 +125,25 @@ p {
     gap: 8px;
 }
 
-#youngdusan {
+#yongdusan {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.youngdusan-header {
+.yougdusan-header {
     display: flex;
     flex-direction: column;
 }
 
-.youngdusan-topics {
+.yongdusan-topics {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-top: 16px;
+}
+
+#history {
+    color: #0C51A7;
 }
 
 .topic {
